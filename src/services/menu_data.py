@@ -22,7 +22,6 @@ class MenuData:
         counter = ""
         for recipe in self.data:
             if recipe[0] != counter:
-                print(recipe[0], counter)
                 counter = recipe[0]
                 new_recipe = Dish(recipe[0], float(recipe[1]))
                 new_recipe.add_ingredient_dependency(
