@@ -29,6 +29,6 @@ class InventoryMapping:
     def check_recipe_availability(self, recipe: Recipe) -> bool:
         pass
 
-    # Req 5.2
+    # Req 5.2.
     def consume_recipe(self, recipe: Recipe) -> None:
         pass
