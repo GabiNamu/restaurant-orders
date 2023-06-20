@@ -1,4 +1,4 @@
-# Restaurant Orders:
+# Restaurant Orders 🍽:
 Restaurant Orders was a project made for study purpose.
 
 ## About:
@@ -28,9 +28,18 @@ python3 -m venv .venv && source .venv/bin/activate
 python3 -m pip install -r dev-requirements.txt
 ```
 ### Main technologies:
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-
+- Python;
+- Pytest;
+- Flake8;
 
 ## Contributors: 
+I made only:
+ - src/menu_data.py;
+ - src/menu_builder.py -> only the get_main_menu;
+ - src/inventory_control.py -> only the check_recipe_availability and consume_recipe methods;
 
+ - tests/ingredient/test_ingredient.py
+ - tests/dish/test_dish.py
+--------
+the others files were made by trybe.
 
