@@ -41,5 +41,5 @@ I made only:
  - tests/ingredient/test_ingredient.py
  - tests/dish/test_dish.py
 --------
-the others files were made by trybe.
+the other files were made by trybe.
 
