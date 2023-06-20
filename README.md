@@ -1,13 +1,36 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Restaurant Orders:
+Restaurant Orders was a project made for study purpose.
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## About:
+In this project, I developed a tool to generate menus, considering possible dietary restrictions and ingredient availability in stock. Throughout this project, I built tests for already implemented classes. I also implemented a new class to map dishes and their respective recipes (ingredients and quantities), as well as a class that generates the menus to be displayed to the people who frequent the establishment, and another class that manages ingredient stock.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+### Skills practiced:
+
+- Applying the concept of Hashmaps using Python's Dict and Set data structures.
+- Applying software testing knowledge.
+- Applying object-oriented programming knowledge.
+
+## Run locally:
+- First clone the repository into your machine;
+```
+git clone git@github.com:GabiNamu/Tryunfo.git
+```
+- Go to the project directory:
+```
+cd restaurant-orders
+```
+ - Create the virtual environment for the project:
+```
+python3 -m venv .venv && source .venv/bin/activate
+```
+- Install dependencies;
+```
+python3 -m pip install -r dev-requirements.txt
+```
+### Main technologies:
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+
+
+## Contributors: 
+
+
